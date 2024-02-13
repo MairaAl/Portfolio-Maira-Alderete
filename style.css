@@ -146,6 +146,9 @@ img {
   color: white;
   padding: 10px;
 }
+.colored {
+  color: #ff5e33;
+}
 @media (max-width: 600px) {
   .row {
     text-align: center;
