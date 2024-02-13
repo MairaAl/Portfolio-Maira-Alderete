@@ -149,6 +149,19 @@ img {
 .colored {
   color: #ff5e33;
 }
+.link-contact {
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+.logo-s {
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+  background-color: #ff5e33;
+  border-radius: 50%;
+}
+
 @media (max-width: 600px) {
   .row {
     text-align: center;
