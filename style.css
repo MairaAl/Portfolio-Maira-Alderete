@@ -10,7 +10,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   text-align: center;
   margin: 0;
 }
@@ -118,6 +119,7 @@ img {
 .row {
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 .link {
   background-color: #ff5e33;
@@ -126,6 +128,23 @@ img {
   margin: 20px;
   display: block;
   text-align: center;
+}
+.img-lang {
+  width: 100px;
+  margin: 100px 20px;
+  opacity: 0.8;
+}
+.img-center {
+  margin: 0 auto;
+  display: block;
+}
+.cert-img {
+  margin-top: 30px;
+}
+.background-tittle {
+  background-color: #ff5e33;
+  color: white;
+  padding: 10px;
 }
 @media (max-width: 600px) {
   .row {

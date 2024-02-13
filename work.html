@@ -2,9 +2,113 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
+        <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My work</title>
   </head>
-  <body></body>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="light">
+      <div class="container-fluid">
+        <img src="programador.png" alt="programmer" class="icon-s" />
+        <a class="navbar-brand" href="#">Maira A</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" title="More information"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html" title="My work">My work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" title="Contact Maira"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1>My Work</h1>
+    <h3>Here you can see some of my projects</h3>
+    <div class="work">
+      <div class="weather row">
+        <div class="col-md-6">
+          <img src="weather app.png" class="img-fluid d-none d-lg-block" alt="weather web"  />
+        </div>
+        <div class="col-md-6">
+          <h2>Weather app</h2>
+          <div>This is a project I did with the She Codes course I took, learning about the basics of programmation. 
+            The languages I used are HTML, CSS and Javascript. I used an API for this project to search for the weather of any city in the world.</div>
+          <div>
+            <a href="https://idyllic-gelato-a30125.netlify.app" class="link">Go to the site</a>
+          </div>
+        </div>
+      </div>
+      <div class="wordle row">
+        <div class="col-md-6">
+          <h2>Wordle</h2>
+         <div> This is a game that you have to guess a 5 letters word to win, you have 6 opportunitties to guess the word, I did this project in a bootcamp of Programando Paraguay, we used HTML, CSS and Javascript.
+          <div id="wordle-button">
+             <a href="https://mairaal.github.io/Wordle-PPY/" class="link">Go to the site</a>
+        </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="wordle.png" class="img-fluid d-none d-lg-block" alt="wordle game" />
+        </div>
+      </div>
+      <div class="Calculator row">
+        <div class="col-md-6">
+          <img src="calculadora.png" class="img-fluid d-none d-lg-block" alt="calculator web" />
+        </div>
+        <div class="col-md-6">
+          <h2>Calculator</h2> <div>This project was made to help doctors to calculate the amount of serum that people should get considering their weight.</div>
+          <div>
+             <a href="https://mairaal.github.io/" class="link">Go to the site</a>
+          </div>
+        </div>
+    </div>
+     <div class="economy row">
+        <div class="col-md-6">
+          <h2>Token Economy</h2>
+         <div> This is a game that you have to guess a 5 letters word to win, you have 6 opportunitties to guess the word, I did this project in a bootcamp of Programando Paraguay, we used HTML, CSS and Javascript.
+          <div id="economy-button">
+             <a href="https://mairaal.github.io/EconomiaDeFichas.github.io/" class="link">Go to the site</a>
+        </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="economia de fichas.png" class="img-fluid d-none d-lg-block" alt="economy app" />
+        </div>
+      </div>
+  </body>
 </html>
