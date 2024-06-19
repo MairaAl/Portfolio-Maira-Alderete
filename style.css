@@ -120,6 +120,7 @@ img {
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  border: solid #ff5e33;
 }
 .link {
   background-color: #ff5e33;
