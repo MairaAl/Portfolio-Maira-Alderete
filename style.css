@@ -165,6 +165,23 @@ img {
 .underline {
   text-decoration: underline;
 }
+.navbar-naranja {
+  background-color: #ff5e33 !important;
+}
+
+.navbar-naranja .navbar-brand,
+.navbar-naranja .nav-link {
+  color: white !important; /* Cambiar el color del texto */
+}
+
+.navbar-naranja .navbar-toggler {
+  border-color: white !important; /* Cambiar el color del borde del botón de colapsar */
+}
+
+.navbar-naranja .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
 @media (max-width: 600px) {
   .row {
     text-align: center;
